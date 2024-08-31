@@ -36,9 +36,28 @@ I’m a Mechanical Engineer who transitioned to a full-time Data and Analytics M
 - Regression is about predicting a numerical value based on the previous values and their related features.
 - Classification technique is often used in fraud detection, news category classification, etc.
 - The regression technique is often used to predict stock prices, housing prices, salaries, etc.
-- Email spam detection is enabled by a machine-learning model.
+- A machine-learning model enables email spam detection.
 - A machine is trained by providing the input and output data, not the logic.
 - The machine learns to infer the logic based on the input and output data provided.
-- Machine learning methods are broadly classified into two types: Supervised learning and Unsupervised learning.
+- Machine learning methods are broadly classified into Supervised learning and Unsupervised learning.
 - Supervised learning is a method in which the model is trained on a labeled dataset such as house price prediction.
 - Unsupervised learning is a method in which the input data is not provided with labels and the model is expected to classify the data based on hidden patterns and structures like document classification.
+
+  ### Day 2:
+- NumPy (numeric Python) is a popular library for data analysis, machine learning, and scientific computing.
+- Any person doing data analysis or machine learning in Python, uses NumPy almost daily.
+- Numpy arrays offer several benefits over plain Python lists such as,
+- Less memory consumption Fast operations
+- Convenient APIs for a variety of mathematical functions
+- You do not have to remember API syntax. In real life, people always refer to NumPy documentation, ChatGPT or Google to know the syntax.
+- sum(), min(), max(), std() are used for doing quick statistical analysis.
+- ndim, item size, size, and shape are the functions used for figuring out an array's dimensions, element byte size, total number of elements, and the size of each dimension, respectively.
+- You do not have to remember API syntax. In real life, people always refer to NumPy documentation, ChatGPT or Google to know the syntax.
+- sum(), min(), max(), std() are used for doing quick statistical analysis.
+- ndim, itemsize, size, shape are the functions used for figuring out an array's dimensions, element byte size, total number of elements, and the size of each dimension, respectively.
+- Using NumPy, one can conveniently perform matrix operations.
+- For two matrices (m1 and m2), one can do addition, subtraction, division and multiplication by using +,-/and operators.
+- np.dot(m1,m2) and np.cross(m1, m2) can be used to perform a dot and cross products between two metrices (m1 and m2).
+- NumPy supports index and slicing operators similar to Python native list.
+- np.hstack and np.vstack are used to stack two NumPy arrays horizontally and vertically.
+- np.hsplit and np.vsplit are used to split a numpy array either horizontally or vertically.
